@@ -5,13 +5,13 @@
 #include <string.h>
 
 int main() {
-    double targetCalories = 0.0d;
+    double targetCalories = 0.0f;
 
     do {
         printf("Target kilocalorie count: ");
     } while (scanf("%lf", &targetCalories) != 1);
 
-    double targetProtein = 0.0d;
+    double targetProtein = 0.0f;
 
     do {
         printf("Target protein amount (your body weight in pounds): ");
